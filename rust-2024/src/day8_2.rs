@@ -4,7 +4,7 @@ use std::collections::{HashMap, HashSet};
 use std::vec;
 
 pub fn solve() -> () {
-  let mut grid : Vec<Vec<char>> = io::stdin()
+  let grid : Vec<Vec<char>> = io::stdin()
       .lock()
       .lines()
       .map(|line| line.unwrap().chars().collect::<Vec<char>>())
