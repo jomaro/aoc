@@ -19,6 +19,8 @@ mod day8_1;
 mod day8_2;
 mod day9_1;
 mod day9_2;
+mod day10_1;
+mod day10_2;
 
 
 fn main() {
@@ -43,6 +45,8 @@ fn main() {
     "aoc8-2" => day8_2::solve(),
     "aoc9-1" => day9_1::solve(),
     "aoc9-2" => day9_2::solve(),
+    "aoc10-1" => day10_1::solve(),
+    "aoc10-2" => day10_2::solve(),
 
     _ => panic!("Parameter invalid!!"),
   }
