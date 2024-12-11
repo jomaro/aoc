@@ -2,6 +2,8 @@ use std::env;
 
 mod day10_1;
 mod day10_2;
+mod day11_1;
+mod day11_2;
 mod day1_1;
 mod day1_2;
 mod day2_1;
@@ -45,6 +47,8 @@ fn main() {
         "aoc9-2" => day9_2::solve(),
         "aoc10-1" => day10_1::solve(),
         "aoc10-2" => day10_2::solve(),
+        "aoc11-1" => day11_1::solve(),
+        "aoc11-2" => day11_2::solve(),
 
         _ => panic!("Parameter invalid!!"),
     }
