@@ -60,7 +60,7 @@ pub fn solve() -> () {
 fn candidate(grid: &HashMap<(i64, i64), i64>) -> bool {
     for ((i, j), _) in grid {
         let b = grid.contains_key(&(*i, j + 1))
-            && grid.contains_key(&(*i, j+2))
+            && grid.contains_key(&(*i, j + 2))
             && grid.contains_key(&(i + 1, *j))
             && grid.contains_key(&(i + 1, j + 1))
             && grid.contains_key(&(i + 1, j + 2))
