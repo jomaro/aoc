@@ -1,4 +1,7 @@
-use std::{collections::VecDeque, io::{self, BufRead}};
+use std::{
+    collections::VecDeque,
+    io::{self, BufRead},
+};
 
 pub fn solve() -> () {
     let mut grid: Vec<Vec<char>> = io::stdin()
