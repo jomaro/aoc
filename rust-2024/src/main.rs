@@ -16,8 +16,18 @@ mod day15_1;
 mod day15_2;
 mod day16_1;
 mod day16_2;
+mod day17_1;
+mod day17_2;
+mod day18_1;
+mod day18_2;
+mod day19_1;
+mod day19_2;
 mod day1_1;
 mod day1_2;
+mod day20_1;
+mod day20_2;
+mod day22_1;
+mod day22_2;
 mod day2_1;
 mod day2_2;
 mod day3_1;
@@ -71,6 +81,16 @@ fn main() {
         "aoc15-2" => day15_2::solve(),
         "aoc16-1" => day16_1::solve(),
         "aoc16-2" => day16_2::solve(),
+        "aoc17-1" => day17_1::solve(),
+        "aoc17-2" => day17_2::solve(),
+        "aoc18-1" => day18_1::solve(),
+        "aoc18-2" => day18_2::solve(),
+        "aoc19-1" => day19_1::solve(),
+        "aoc19-2" => day19_2::solve(),
+        "aoc20-1" => day20_1::solve(),
+        "aoc20-2" => day20_2::solve(),
+        "aoc22-1" => day22_1::solve(),
+        "aoc22-2" => day22_2::solve(),
 
         _ => panic!("Parameter invalid!!"),
     }
